@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
 <parameters>
-    <parameter name="population" displayName="Population" type="int" defaultValue="1000" />
-    <parameter name="beta" displayName="Infection Rate (Beta)" type="double" defaultValue="0.25" />
-    <parameter name="gamma" displayName="Recovery Rate (Gamma)" type="double" defaultValue="0.1" />
-    <parameter name="initialInfected" displayName="Initial Infected" type="int" defaultValue="1" />
-    <parameter name="endTick" displayName="End Tick" type="int" defaultValue="500" />
+
+    <parameter name="randomSeed" displayName="Default Random Seed" type="int" defaultValue="NULL" />
+    <parameter name="susceptible_count" type="int" defaultValue="100" displayName="Number of Susceptible Individuals" />
+    <parameter name="initial_infected_count" type="int" defaultValue="5" displayName="Number of Initial Infected Individuals" />
+    <parameter name="use_SIR" type="boolean" defaultValue="true" displayName="Enable Recovery (SIR Model)" />
+
 </parameters>
