@@ -1,0 +1,7 @@
+<parameters>
+    <parameter name="population" displayName="Population" type="int" defaultValue="1000" />
+    <parameter name="beta" displayName="Infection Rate (Beta)" type="double" defaultValue="0.25" />
+    <parameter name="gamma" displayName="Recovery Rate (Gamma)" type="double" defaultValue="0.1" />
+    <parameter name="initialInfected" displayName="Initial Infected" type="int" defaultValue="1" />
+    <parameter name="endTick" displayName="End Tick" type="int" defaultValue="500" />
+</parameters>
